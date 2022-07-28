@@ -1,12 +1,13 @@
-// #app {
-//     font-family: Avenir, Helvetica, Arial, sans-serif;
-//     -webkit-font-smoothing: antialiased;
-//     -moz-osx-font-smoothing: grayscale;
-//     text-align: center;
-//     color: #2c3e50;
-//     margin-top: 60px;
-//     background: #f4f4f4;
-//   }
+
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../Fonts/Icomoon/icomoon.eot"); /* IE9 Compat Modes */
+    src: url("../Fonts/Icomoon/icomoon.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Fonts/Icomoon/icomoon.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("../Fonts/Icomoon/icomoon.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../Fonts/Icomoon/icomoon.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
 :root {
     --fontModifier: 1;
   }
