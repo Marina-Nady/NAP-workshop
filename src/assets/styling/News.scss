@@ -1,0 +1,21 @@
+.news-section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    .sm-card-container{
+        flex: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+    //mobile
+    @media only screen and (max-width:425px) {
+        .news-section{
+            .sm-card-container{
+                flex: 100%;
+            }
+        }
+    }

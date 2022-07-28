@@ -1,0 +1,92 @@
+.generic-card{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
+    .img-container {
+    position: relative;
+    background: #ddd;
+    overflow: hidden;
+    flex: 50%;
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: (106 / 207) * 100%;
+    }
+    > .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        }
+    }
+    .sm-card{
+        flex-direction: row-reverse;
+    }
+    .hide-img{
+        display: none;
+    }
+    .post-details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #6b6b6b;
+    }
+    .text-container{
+        margin: 0 15px;
+    }
+    .newspaper-name__right{
+        display: flex;
+        align-items: center;    
+    }
+    .newspaper-title{
+        margin: 10px;
+        font-weight: 100;
+        font-size: calc(var(--fontModifier) * 12px + (14 - 12) * ((100vw - 1024px) / (1366 - 1024)));
+    }
+    .post-category-container{
+        display: flex;
+        align-items: baseline;
+    }
+    .post-category,.post-time, .post-likes{
+        font-size: calc(var(--fontModifier) * 11px + (11 - 9) * ((100vw - 1024px) / (1366 - 1024)));
+
+    }
+    .post-time{
+        font-weight: 100;
+        color: #a2adab;
+    }
+    .post-likes{
+        margin-left:7px ;
+    }
+
+    .post-category-divider{
+        padding: 0 5px;
+    }
+    .post-info{
+        margin-top: 0;
+        font-weight: 600;
+        font-size: calc(var(--fontModifier) * 14px + (16 - 14) * ((100vw - 1024px) / (1366 - 1024)));
+    }
+
+    //mobile
+    @media only screen and (max-width:425px) {
+        .generic-card{
+            flex: 100%;
+        }
+        .sm-card{
+            flex-direction: column;
+            .post-title{
+                order:unset;
+            }
+    
+        }
+    }

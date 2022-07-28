@@ -1,0 +1,68 @@
+.header-section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    .carousel{
+        flex: 60%;
+        .carousel-control-next, .carousel-control-prev {
+            display: none;
+        }
+        .carousel-indicators {
+            z-index: 10000;
+            right: unset;
+            margin-left: 10%;
+            padding: 10px 0;
+            margin-bottom: unset;
+            .carousel-btn{
+                width: 7px;
+                height: 7px;
+                margin-right: 5px;
+                margin-left: 5px;
+                border-radius: 50%;
+
+            }
+            
+            }
+
+        }
+}
+.bg-image-card{
+    position: relative;
+}
+.custom-design{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    background-image: linear-gradient(transparent,black);
+    padding: 10px 15px;
+    margin: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .post-details{
+        color: #fff;
+    }
+}
+
+.sm-custom-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 25%;
+
+}
+
+
+
+    //mobile
+    @media only screen and (max-width:425px) {
+        .header-section{
+            .carousel{
+                flex: 100%;
+                }
+        }
+        
+    }

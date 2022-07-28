@@ -1,0 +1,33 @@
+// #app {
+//     font-family: Avenir, Helvetica, Arial, sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     text-align: center;
+//     color: #2c3e50;
+//     margin-top: 60px;
+//     background: #f4f4f4;
+//   }
+:root {
+    --fontModifier: 1;
+  }
+body{
+    background-color: #f4f4f4;
+    direction: rtl;
+    margin: 20px;
+    font-family: 'Noto Kufi Arabic';
+}
+.section-title{
+    h3{
+        font-size: calc(var(--fontModifier) * 27px + (30 - 27) * ((100vw - 1024px) / (1366 - 1024)));
+        font-weight: 600;    
+    }
+}
+.generic-section{
+    border-top: 4px solid rgba(126, 144, 161, 46%);
+    margin: 0 0 45px 0;
+    padding: 20px 0 0 0;
+
+}
+.generic-section:nth-child(1){
+    border-top: none;
+}
