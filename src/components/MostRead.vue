@@ -25,7 +25,7 @@
           <generic-card
             img="https://picsum.photos/id/240/500/300"
             postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-            class="sm-card"
+            class="sm-card "
           />
           <generic-card
             img="https://picsum.photos/id/241/500/300"
@@ -42,18 +42,18 @@
     <div class="sm-card-container without-image">
       <generic-card
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
         hide="hide-img"
       />
 
       <generic-card
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
         hide="hide-img"
       />
       <generic-card
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
         hide="hide-img"
       />
     </div>

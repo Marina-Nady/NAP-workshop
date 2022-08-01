@@ -45,6 +45,24 @@
 
 }
 
+    //tablet
+    @media only screen and (max-width:768px) {
+        .most-read-title {
+            flex: 100%;
+        }
+        .most-read {
+            flex: 100%;
+            order: 2;
+        }
+        .urgent-news-title {
+            flex: 100%;
+            order: 3;
+        }
+        .sm-card--tablet{
+            flex-direction: column;
+        }
+    }
+
     //mobile
     @media only screen and (max-width:425px) {
         .third-section{

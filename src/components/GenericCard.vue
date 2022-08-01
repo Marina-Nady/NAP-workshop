@@ -3,7 +3,7 @@
         <div class="text-container" :class="custom">
             <div class="post-details">
                 <div class="newspaper-name__right">
-                    <span class="icon-file-text2"></span>
+                    <img src="../assets/header-logo1.jpg" class="news-source" />
                     <h4 class="newspaper-title">أخبار اليوم</h4>
                 </div>
                 <div class="newspaper-name__left">

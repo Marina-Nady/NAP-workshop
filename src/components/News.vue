@@ -14,24 +14,24 @@
       <generic-card
         img="https://picsum.photos/id/238/500/300"
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
       />
       <generic-card
         img="https://picsum.photos/id/237/500/300"
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
       />
     </div>
     <div class="sm-card-container">
       <generic-card
         img="https://picsum.photos/id/239/500/300"
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
       />
       <generic-card
         img="https://picsum.photos/seed/picsum/500/300"
         postTitle="موعد مباراة بيراميدز وزاناكو في الكونفدرالية الإفريقية.. والقناة الناقلة"
-        class="sm-card"
+        class="sm-card sm-card--tablet"
       />
     </div>
     <generic-card
