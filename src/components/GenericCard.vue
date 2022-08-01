@@ -19,7 +19,7 @@
                     <span class="post-category-divider">.</span>
                     <h4 class="post-time">منذ ساعتين</h4>
                 </div>
-                <div class="post-category-container">
+                <div class="post-category-container post-category-container--likes">
                     <h4 class="post-likes">25</h4>
                     <span class="icon-like"></span>
                 </div>

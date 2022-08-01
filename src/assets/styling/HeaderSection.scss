@@ -55,14 +55,36 @@
 
 }
 
+    //tablet
+    @media only screen and (max-width:768px) {
+        .header-section{
+            .carousel {
+                flex: 100%;
+            }    
+        }
+        .sm-custom-cards {
+            flex-direction: row;
+        }
+        
+        
+        
+    }
+
 
 
     //mobile
     @media only screen and (max-width:425px) {
+        .post-info{
+            font-size: calc(var(--fontModifier) * 14px);
+        }
         .header-section{
             .carousel{
                 flex: 100%;
                 }
         }
+        .sm-custom-cards {
+            flex-direction: column;
+        }
+
         
     }

@@ -42,6 +42,10 @@
     }
     .text-container{
         margin: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
     }
     .newspaper-name__right{
         display: flex;
@@ -93,5 +97,8 @@
                 order:unset;
             }
     
+        }
+        .post-category-container--likes{
+            display: none;
         }
     }
