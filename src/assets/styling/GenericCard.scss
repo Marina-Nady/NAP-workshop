@@ -101,4 +101,12 @@
         .post-category-container--likes{
             display: none;
         }
+        .newspaper-title{
+        font-size: calc(var(--fontModifier) * 12px);
+        }
+        .news-source{
+            width: 25px;
+            height: 25px;
+        
+        }
     }
